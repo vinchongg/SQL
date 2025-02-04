@@ -78,4 +78,4 @@ SELECT winner,
     WHEN winner_pts > 30 THEN "High Chance"
     WHEN winner_pts < 30 THEN "Some Chance"
     END as "Chance of Winning"
-FROM superbowls;  
+FROM superbowls;
